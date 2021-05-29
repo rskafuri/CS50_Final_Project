@@ -112,3 +112,5 @@ if raw_file is not None:
     ax = sns.barplot(data=fi_df, x='IMPORTANCE', y='FEATURES')
     
     st.pyplot(fig)
+    
+    st.markdown("Try multiple targets and see what happens!")
