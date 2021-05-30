@@ -1,6 +1,6 @@
 # AutoML for Beginners
 
-When I begun to learn how to program my end-goal was always to get into machine learning, as I found it fascinating.
+When I began to learn how to program my end-goal was always to get into machine learning, as I found it fascinating.
 This app's goal is to teach anyone how simple Machine Learning can be.
 
 I wanted to make it so the whole application would run as soon as the user provided the desired DataFrame. I also
