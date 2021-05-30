@@ -28,14 +28,14 @@ df = df.dropna()
 df = df.select_dtypes(exclude=['object'])
 ```
 
-The next step was to perform a simple EDA (Exploratory Data Analisys). To do that I chose to use the seaborn library
+The next step was to perform a simple EDA (Exploratory Data Analysis). To do that I chose to use the seaborn library
 to display the pairwise relationship scatterplots of all features. Again, in a customized setting this would probably
 not suffice, but it was generic enough to fit most, if not all, files.
 
 `st.pyplot(sns.pairplot(data=df))`
 
-The last step was to run a **Random Forest Regressor** model in our DataFrame, and display the feature importance.
-To run the model, the user is required to choose a target through a dropdown menu, The model will automatically rerun
+The last step was to run a **Random Forest Regressor** model in our DataFrame and display the feature importance.
+To run the model, the user is required to choose a target through a dropdown menu, the model will automatically rerun
 if the target is changed by the user.
 
 ```
